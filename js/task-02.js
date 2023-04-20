@@ -13,6 +13,5 @@ const list = document.querySelector("#ingredients");
   const li = document.createElement("li");
   li.textContent = item;
   li.classList.add("item");
-  console.log(li.textContent);
   list.append(li);
 });
