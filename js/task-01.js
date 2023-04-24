@@ -7,7 +7,6 @@ console.log(`Number of categories: ${total}`);
     const categoryName = item.firstElementChild.textContent;
     console.log(`Category: ${categoryName}`);
 
-    const elements = item.lastElementChild;
-    const quantity = [...elements.children].length;
+    const quantity = [...item.lastElementChild.children].length;
     console.log(`Elements: ${quantity}`);
 })
