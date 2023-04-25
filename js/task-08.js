@@ -14,7 +14,6 @@ function onSubmit(evt) {
     };
   
     console.log(data);
+    evt.currentTarget.reset();
   }
-
-  evt.currentTarget.reset();
 }
